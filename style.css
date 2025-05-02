@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+main {
+    flex: 1; /* Takes up remaining space */
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative; /* Change from fixed to relative */
+    bottom: 0;
+    left: 0;
+}
+
+/* Navigation bar container */
+nav {
+    background-color: #2c3e50; /* Dark background */
+    padding: 10px 0;
+    text-align: center; /* Centers the menu horizontally */
+}
+
+/* Styling navigation links */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes items align in a row */
+    justify-content: center; /* Centers menu items */
+}
+
+/* Navigation items */
+nav ul li {
+    margin: 0 10px; /* Adds space between menu items */
+}
+
+/* Navigation links */
+nav ul li a {
+    display: block; /* Makes text a block */
+    background-color: #1abc9c; /* Button-like background */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    font-size: 18px; /* Slightly bigger font */
+    font-weight: 600; /* Bold for better visibility */
+    padding: 10px 20px; /* Padding inside the block */
+    border-radius: 5px; /* Rounded edges */
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #16a085; /* Darker shade on hover */
+    transform: scale(1.05); /* Tiny zoom effect */
+}
+
+
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Apply to all page content */
+.content-container {
+    text-align: center;  /* Center text */
+    width: 80%;          /* Set max width */
+    margin: 0 auto;      /* Center the div */
+}
+
+/* Center images */
+.content-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.get-involved {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.get-involved h2 {
+    color: #27ae60;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.get-involved h3 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.get-involved p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #219150;
+}
+
+.campaigns {
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.campaign-card {
+    border: 2px solid #1abc9c;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 500px;
+    background-color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.campaign-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    color: #1abc9c;
+}
+
+.campaign-message {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    background: #1abc9c;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
